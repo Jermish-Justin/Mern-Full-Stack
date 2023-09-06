@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS TASK 4</title>
+    <link rel="stylesheet" href="./css_task4.css" type="text/css" />
+  </head>
+  <body>
+    <h2 align="center">Hoverable Sidenav buttons</h2>
+    <p align="center">
+      Hover over the buttons in th left side navigation to open them
+    </p>
+    <div>
+      <nav>
+        <ul>
+          <li><a href="#" class="button1">Button 1</a></li>
+          <li><a href="#" class="button2">Button 2</a></li>
+          <li><a href="#" class="button3">Button 3</a></li>
+          <li><a href="#" class="button4">Button 4</a></li>
+        </ul>
+      </nav>
+    </div>
+  </body>
+</html>
