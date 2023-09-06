@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS TASK 7</title>
+    <link rel="stylesheet" href="./css_task7.css" type="text/css" />
+  </head>
+  <body>
+    <div class="outer_box">
+      <div class="inner_box">
+        <form>
+          <table align="center" cellpadding="7" cellspacing="7">
+            <tr>
+              <td>
+                <label for="name">Name:</label>
+              </td>
+              <td>
+                <input type="text" name="name" />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="email">Email:</label>
+              </td>
+              <td>
+                <input type="email" name="email" />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="pw">Password:</label>
+              </td>
+              <td>
+                <input type="password" name="pw" />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="phno">Phone Number:</label>
+              </td>
+              <td>
+                <input type="tel" name="phno" />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="gender">Gender:</label>
+              </td>
+              <td>
+                Male<input type="radio" name="gender" /> Female<input
+                  type="radio"
+                  name="gender"
+                />
+                Other<input type="radio" name="gender" />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="lang">Language:</label>
+              </td>
+              <td>
+                <select name="lang">
+                  <option value="lang">Select Language</option>
+                  <option value="lang">Language 1</option>
+                  <option value="lang">language 2</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="zip">Zipcode:</label>
+              </td>
+              <td>
+                <input type="text" name="zip" />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="abt">About:</label>
+              </td>
+              <td>
+                <textarea
+                  name="abt"
+                  cols="21"
+                  rows="3"
+                  placeholder="Write about yourself...."
+                ></textarea>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2" align="center">
+                <input
+                  type="button"
+                  name="reg"
+                  class="button"
+                  value="Register"
+                />
+              </td>
+            </tr>
+          </table>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
