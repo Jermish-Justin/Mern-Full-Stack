@@ -1,0 +1,21 @@
+.header {
+  background: #04a96d;
+  margin: none;
+  padding: 10px 10px 10px 10px;
+  color: white;
+  text-align: left;
+  border: none;
+}
+.grey_row {
+  background-color: #e8e9eb;
+}
+.white_row {
+  background-color: white;
+}
+table {
+  border-collapse: collapse;
+  width: 60%;
+}
+td {
+  text-align: left;
+}
