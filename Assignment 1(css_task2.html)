@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS TASK 2</title>
+    <link rel="stylesheet" href="./css_task2.css" type="text/css" />
+  </head>
+  <body>
+    <!--Vertical Navigation bar-->
+    <h2>Vertical Navigation Bar</h2>
+    <div>
+      <nav>
+        <ul class="vertical_nav_ul">
+          <li class="vert_nav_li"><a class="ver_nav_a" href="#">Home</a></li>
+          <li class="vert_nav_li"><a class="ver_nav_a" href="#">Java</a></li>
+          <li class="vert_nav_li"><a class="ver_nav_a" href="#">CSS</a></li>
+          <li class="vert_nav_li"><a class="ver_nav_a" href="#">HTML</a></li>
+          <li class="vert_nav_li">
+            <a class="ver_nav_a" href="#">Bootstrap</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <!--Horizontal Navigation bar-->
+    <br />
+    <h2>Horizontal Navigation Bar</h2>
+    <div>
+      <nav>
+        <ul class="horizontal_nav_ul">
+          <li class="hor_nav_li">
+            <a class="hor_nav_a" href="#">Home</a>
+          </li>
+          <li class="hor_nav_li"><a class="hor_nav_a" href="#">Java</a></li>
+          <li class="hor_nav_li"><a class="hor_nav_a" href="#">CSS</a></li>
+          <li class="hor_nav_li"><a class="hor_nav_a" href="#">HTML</a></li>
+        </ul>
+      </nav>
+    </div>
+  </body>
+</html>
